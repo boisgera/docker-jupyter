@@ -1,0 +1,17 @@
+[project]
+name = "docker-jupyter"
+version = "0.1.0"
+description = "Jupyter in a Docker image"
+authors = ["Sébastien Boisgérault <Sebastien.Boisgerault@gmail.com>"]
+channels = ["conda-forge"]
+platforms = ["linux-64", "win-64", "osx-arm64"]
+
+[dependencies]
+python = ">=3.12.5,<3.13"
+jupyterlab = ">=4.1.8,<4.2"
+jupyterlab-myst = ">=2.4.2,<2.5"
+jupyter-collaboration = ">=2.1.2,<2.2"
+numpy = ">=2.1.0,<2.2"
+
+[pypi-dependencies]
+pyxel = "*"
