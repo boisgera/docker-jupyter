@@ -1,2 +1,2 @@
 #!/bin/bash
-sudo docker run --rm -p 8888:8888 jupyter
+docker run --rm -p 8888:8888 jupyter
